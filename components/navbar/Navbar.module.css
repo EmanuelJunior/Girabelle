@@ -1,0 +1,6 @@
+
+@import '/src/index.css';
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
