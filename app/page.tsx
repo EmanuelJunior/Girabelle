@@ -1,5 +1,7 @@
 import { BenefitsCard, FeatureCard } from "@/components/cards";
 import { CategorySection } from "@/components/categories";
+import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { News } from "@/components/news";
 import { Products } from "@/components/products";
@@ -12,7 +14,8 @@ export default function Home() {
     <BenefitsCard/>
     <CategorySection/>
     <Products/>
-    <News/>
+    <Footer/>
+    <Contact/>
 
    </>
     

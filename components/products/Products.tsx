@@ -18,9 +18,22 @@ export const Products = () => {
               <Tab key="Servicios cosmetologicos" title="Servicios cosmetologicos"/>
           </Tabs>
 
-          <div className="gap-8 mt-8 grid grid-cols-4  ">
-            <ProductCard
-              img="fondo-partner.png"
+          <div className="gap-8 px-8 sm:px-14 md:px-20 lg:px-24 mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  ">
+            
+            {
+              [...Array(8)].map( i => (
+                <ProductCard
+                  img="/foto-de-perfil.png"
+                  title="Sofia"
+                  description="Cosmetóloga certificada con más de 8 años de experiencia. Experta en tratamientos faciales y rejuvenecimiento de piel."
+                  price={599}
+                  rating={5}
+                />
+              ))
+            }
+            
+            {/* <ProductCard
+              img="/foto-de-perfil.png"
               title="Sofia"
               description="Cosmetóloga certificada con más de 8 años de experiencia. Experta en tratamientos faciales y rejuvenecimiento de piel."
               price={599}
@@ -28,7 +41,7 @@ export const Products = () => {
             />
                 
             <ProductCard
-              img="fondo-partner.png"
+              img="/foto-de-perfil.png"
               title="Ana"
               description="Estilista profesional con 10 años de experiencia. Especializada en cortes modernos y coloración avanzada."
               price={599}
@@ -36,20 +49,20 @@ export const Products = () => {
             />
 
             <ProductCard
-              img="fondo-partner.png"
+              img="/foto-de-perfil.png"
               title="Camila"
               description="Manicurista creativa con 6 años de experiencia. Especialista en nail art y cuidado de uñas."
               price={599}
               rating={5}
-            />
+            /> */}
 
-            <ProductCard
-              img="fondo-partner.png"
+            {/* <ProductCard
+              img="/foto-de-perfil.png"
               title="Johana"
               description=" Maquilladora con 7 años de experiencia, especializada en maquillaje para novias y eventos de gala."
               price={599}
               rating={5}
-            />
+            /> */}
 
 
               

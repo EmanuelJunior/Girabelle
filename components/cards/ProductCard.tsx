@@ -13,18 +13,19 @@ interface ProductCardProps {
 
 export const ProductCard = ({ img,title, description, rating, price }: ProductCardProps) => {
     return (
-        <section className="bg-white gap-5 flex flex-col p-4 border shadow-md rounded-md">
-            <div className="flex items-center">
-               
-
-               {/* Discount */}
-               
-                {/* Chip - NextUI */}
+        <section className="bg-white gap-5 flex flex-col p-4 border shadow-md rounded-md justify-center items-center">
+            <div className="flex items-center hidden">
                 <Chip className="text-white bg-emerald-400 " color="success" variant="shadow">sale 50%</Chip>
             </div>
 
-            <div className="flex justify-center items-center rounded-full">
-                <img src={ img } alt={ title } className='w-36 h-36 rounded-full'/>
+            <div
+                className="flex justify-center items-center rounded-full w-2/3 bg-contain "
+                style={{
+                    backgroundImage: 'url(fondo-partner.png)',
+                    backgroundPosition: 'center',
+                }}
+            >
+                <img src={ img } alt={ title } className='w-36 h-36 rounded-full w-full'/>
             </div>
 
             {/* flex, flex-row, justify-between items-center */}
