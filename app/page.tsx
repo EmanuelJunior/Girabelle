@@ -14,8 +14,9 @@ export default function Home() {
     <BenefitsCard/>
     <CategorySection/>
     <Products/>
-    <Footer/>
     <Contact/>
+    <Footer/>
+    
 
    </>
     

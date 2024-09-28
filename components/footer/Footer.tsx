@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Footer = () => {
     return (
-        <footer className="mt-16">
+        <footer>
             <header className='bg-gray-200 p-10 flex flex-col gap-7 lg:flex-row justify-evenly items-center '>
                 <div className="flex flex-row items-center">
                     <img  src="/logo.png" alt="devpath" className='w-8 h-8 sm:w-12 sm:h-12'/>
@@ -21,6 +21,7 @@ export const Footer = () => {
 
                 <div className="bg-white rounded-full shadow-md">
                     <input placeholder="Your email address" className=" text-sm rounded-full py-2 px-4" type="your email" />
+                    
                     <Button
                         variant="shadow"
                         className="rounded-full text-white bg-gradient-to-br from-emerald-500 to-emerald-600"
