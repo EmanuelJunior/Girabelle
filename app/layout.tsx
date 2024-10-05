@@ -7,6 +7,7 @@ import { Providers } from "./providers";
 
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 const siteConfig = {
   name: 'Girabelle',
@@ -51,6 +52,7 @@ export default function RootLayout({
             <main>
               {children}
             </main>
+            <Footer/>
           </div>
         </Providers>
       </body>

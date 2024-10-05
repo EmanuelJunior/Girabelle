@@ -2,16 +2,9 @@
 import { Icon } from "@/utils";
 import { Products } from "../products/Products";
 import { Chip, Button } from "@nextui-org/react";
+import { IProduct } from "@/interfaces";
 
-interface ProductCardProps {
-    img: string;
-    title: string;
-    description:string;
-    price: number;
-    rating: number;
-}
-
-export const ProductCard = ({ img,title, description, rating, price }: ProductCardProps) => {
+export const ProductCard = ({ img,title, description, rating, price }: IProduct) => {
     return (
         <section className="bg-white gap-5 flex flex-col p-4 border shadow-md rounded-md justify-center items-center">
             <div className="flex items-center hidden">
@@ -34,9 +27,6 @@ export const ProductCard = ({ img,title, description, rating, price }: ProductCa
                     {/* title */}
                     <h3 className="text-gray-700 font-semibold">{title} </h3>
                     <p className="text-gray-400 text-xs">{description} </p> 
-
-
-                    
 
                     {/* price */}
                     <p className="font-bold font-serif">${price} </p>

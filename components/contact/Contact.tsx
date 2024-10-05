@@ -24,7 +24,7 @@ export const Contact = () => {
         <div className="bg-white shadow-2xl justify-center rounded-lg p-10 flex flex-col w-full sm:w-3/4 md:w-3/5 lg:w-1/2">
 
             <h1 className="mb-5 inline-block bg-clip-text text-transparent bg-gradient-to-br from-emerald-500 to-emerald-400 text-3xl font-extrabold font-serif">Contactate con Girabelle</h1>
-            <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit vel quibusdam! Praesentium cupiditate dolores beatae porro numquam cumque eius ea. Ullam esse ad harum minima officia assumenda quidem voluptas!</p>
+            <p className="text-sm"> Estamos aquí para ti. Si tienes alguna pregunta, sugerencia o simplemente quieres saber más sobre nuestros servicios, no dudes en contactarnos. ¡Nos encanta ayudarte a hacer realidad tus ideas!</p>
         
             <form className="flex flex-col mt-7 gap-5 ">
             

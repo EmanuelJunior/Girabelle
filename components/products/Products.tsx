@@ -26,7 +26,7 @@ export const Products = () => {
                   img="/foto-de-perfil.png"
                   title="Sofia"
                   description="Cosmetóloga certificada con más de 8 años de experiencia. Experta en tratamientos faciales y rejuvenecimiento de piel."
-                  price={599}
+                  price={100}
                   rating={5}
                 />
               ))
