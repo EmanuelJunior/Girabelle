@@ -1,6 +1,6 @@
 "use client"
 
-import { NavbarItem, NavbarMenuItem } from "@nextui-org/react"
+import { Button, NavbarItem, NavbarMenuItem } from "@nextui-org/react"
 
 import { Icon } from "@/utils"
 // import { CustomButton } from "../../buttons";
@@ -13,30 +13,23 @@ export const NavbarButtons = ({ isMobile = false }: Props) => {
   
   const renderButton = (
     <>
-      {/* <CustomButton
+      <Button
         href="/login"
-        color='gradient'
         size='sm'
-        gradientColors={{
-          from: 'from-red-500',
-          to: 'to-indigo-500'
-        }}        
-        icon={ Icon({ name: 'FiLogIn', library: 'fi'}) }
+        startContent={ Icon({ name: 'FiLogIn', library: 'fi'}) }
+        className="rounded-full bg-gradient-to-r from-gray-900 to-gray-600 text-white"
       >
         Iniciar
-      </CustomButton>
+      </Button>
 
-      <CustomButton
+      <Button
         href={'/register'}
-        color="solid"
         size='sm'
-        icon={ Icon({ name: 'FiUserPlus', library: 'fi'}) }
+        startContent={ Icon({ name: 'FiUserPlus', library: 'fi'}) }
+        className="rounded-full bg-gradient-to-r from-emerald-500 to-emerald-300 text-white"
       >
         Registro
-      </CustomButton> */}
-
-      <button>Iniciar</button>
-      <button>Registro</button>
+      </Button>
     </>
   )
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useContext, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import clsx from "clsx";
 
 import { NavbarItem, NavbarMenuItem, Button } from "@nextui-org/react";
@@ -11,6 +11,7 @@ import { NavbarAccordion, NavbarButtons, NavbarDropDown, NavbarUserAccordion } f
 import { Icon } from "@/utils"
 import Link from 'next/link'
 import { siteConfig } from '@/config/site'
+import React from "react";
 
 interface Props {
   type: 'navItems' | 'navMenuItems',
@@ -119,7 +120,7 @@ const renderNavbarItem = ( label: string, href: string ) => (
     className={clsx(
       linkStyles({ color: "foreground" }),
       "data-[active=true]:text-primary data-[active=true]:font-medium",
-      "hover:text-indigo-600 flex gap-2 w-full"
+      "hover:text-emerald-400 text-sm flex gap-2 w-full"
     )}
     // color="foreground"
     href={href}

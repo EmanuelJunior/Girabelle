@@ -3,7 +3,7 @@ import { CategoryCard} from "../cards"
 
 export const CategorySection = () => {
     return (
-        <section className="p-10 mb-10">
+        <section className="p-10 mb-10 flex flex-col items-center justify-center">
             <div className="flex justify-center">
                 <h1 className="font-extrabold text-4xl text-center font-serif bg-gradient-to-r from-emerald-500 to-emerald-300 bg-clip-text text-transparent inline-block">Categorias</h1>
             </div>
@@ -26,7 +26,6 @@ export const CategorySection = () => {
                 }
 
             </div>  
-                      
         </section>
     )
 }

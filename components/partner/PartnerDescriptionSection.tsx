@@ -4,10 +4,10 @@ import { InfoCard } from "../cards"
 
 export const PartnerDescriptionSection = () => {
   return (
-    <section className="w-full flex flex-row justify-center items-center gap-3">
-        <ul className="flex flex-col gap-2 w-1/2 ">
+    <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-3">
+        <ul className="flex flex-col gap-2 w-full md:w-1/2 ">
         <p>
-        Resalta tu belleza con nuestro servicio de maquillaje profesional. Ya sea para un evento especial, una boda o una sesión fotográfica, nuestros maquilladores expertos se asegurarán de que luzcas espectacular. Utilizamos productos de alta calidad y técnicas avanzadas para crear un look personalizado que resalte lo mejor de ti. ¡Agenda tu cita y brilla en cualquier ocasión!
+            Resalta tu belleza con nuestro servicio de maquillaje profesional. Ya sea para un evento especial, una boda o una sesión fotográfica, nuestros maquilladores expertos se asegurarán de que luzcas espectacular. Utilizamos productos de alta calidad y técnicas avanzadas para crear un look personalizado que resalte lo mejor de ti. ¡Agenda tu cita y brilla en cualquier ocasión!
         </p>
         
         { 
@@ -21,7 +21,7 @@ export const PartnerDescriptionSection = () => {
         }
         </ul>
 
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
             <img
                 src="https://www.letsmakeup.es/wp-content/uploads/2020/02/LETSMAKEUP-Video-principal-maquillando.jpg"
                 alt="banner"

@@ -1,0 +1,16 @@
+import { Service } from "@/interfaces";
+
+export const initialServices: Service[] = [
+  { id: 1, name: "Emma Johnson", service: "Maquillaje", price: 50, rating: 4.8, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "make-up", tags: ["Profesional", "Novia", "Eventos"] },
+  { id: 2, name: "Sophia Lee", service: "Masaje relajante", price: 80, rating: 4.9, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "spa", tags: ["Relajante", "Aromaterapia", "Antiestrés"] },
+  { id: 3, name: "Olivia Martinez", service: "Manicura", price: 35, rating: 4.7, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "uñas", tags: ["Gel", "Diseños", "Francesa"] },
+  { id: 4, name: "Isabella Taylor", service: "Corte de pelo", price: 60, rating: 4.6, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "estilistas", tags: ["Tendencias", "Capas", "Corto"] },
+  { id: 5, name: "Ava Wilson", service: "Tratamiento facial", price: 90, rating: 4.9, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "cosmeticos", tags: ["Hidratante", "Antiarrugas", "Limpieza"] },
+  { id: 6, name: "Mia Anderson", service: "Pedicura", price: 40, rating: 4.5, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "uñas", tags: ["Spa", "Exfoliante", "Pintado"] },
+  { id: 7, name: "Charlotte Brown", service: "Maquillaje de novia", price: 120, rating: 5.0, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "make-up", tags: ["Novia", "Duradero", "Personalizado"] },
+  { id: 8, name: "Amelia Davis", service: "Masaje de piedras calientes", price: 100, rating: 4.8, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "spa", tags: ["Piedras", "Relajante", "Terapéutico"] },
+  { id: 9, name: "Harper Garcia", service: "Coloración de cabello", price: 85, rating: 4.7, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "estilistas", tags: ["Tinte", "Mechas", "Balayage"] },
+  { id: 10, name: "Evelyn Moore", service: "Depilación láser", price: 150, rating: 4.9, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "cosmeticos", tags: ["Láser", "Permanente", "Suave"] },
+  { id: 11, name: "Abigail Clark", service: "Extensiones de pestañas", price: 70, rating: 4.8, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "make-up", tags: ["Volumen", "Natural", "Duraderas"] },
+  { id: 12, name: "Ella Rodriguez", service: "Masaje deportivo", price: 95, rating: 4.7, image: "https://img.freepik.com/psd-gratis/hombre-expresivo-gesticulando_23-2150198670.jpg", category: "spa", tags: ["Deportivo", "Recuperación", "Intenso"] },
+]

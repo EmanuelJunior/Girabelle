@@ -3,7 +3,7 @@ import { InfoCard } from "../cards"
 
 export const AditionalInformationSection = () => {
   return (
-    <section className="w-full flex flex-row justify-between items-center gap-6">
+    <section className="w-full flex flex-col lg:flex-row justify-between items-center gap-6">
       <div className="flex justify-between items-center gap-10">
 
         <ul className="flex flex-col ">
@@ -32,7 +32,7 @@ export const AditionalInformationSection = () => {
 
       </div>
 
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
             <img
                 src="https://www.letsmakeup.es/wp-content/uploads/2020/02/LETSMAKEUP-Video-principal-maquillando.jpg"
                 alt="banner"

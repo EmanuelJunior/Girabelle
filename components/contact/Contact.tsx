@@ -8,7 +8,7 @@ import {Input} from "@nextui-org/react";
 
 export const Contact = () => {        
 
-    const [ isSelected ,setIsSelected] = useState<boolean>();
+    const [ isSelected ,setIsSelected] = useState<boolean>(false);
 
   return (
         <section 
